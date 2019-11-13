@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="login-page d-flex flex-column">
+    <div class="p-2">
+    </div>
+    <div class="p-2">
+      <form method="post" id="login-form" class="rounded-bottom">
+        {% csrf_token %}
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-success" role="alert">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+        {{ msg }}
+        {% if error %}
+          {% for e in error %}
+            <div class="alert alert-danger" role="alert">
+              {{ e }}
+            </div>
+          {% endfor %}
+        {% endif %}
+        {{form.as_p}}
+        <button id="create-user-btn" class="btn btn-primary btn-lg" type="submit">Create</button>
+      </form>
+    </div>
+  </div>
+{% endblock %}
