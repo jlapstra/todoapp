@@ -1,42 +1,42 @@
 # todoapp
 CodingTest
 
-###Dependancies:
+### Dependancies:
   Python3.8
   npm 6.4.0
   node v8.10.0
   
   
-##Getting Started:
+## Getting Started:
 
-###python requirements
+### python requirements
 ```bash
 pip install -r requirements.txt
 ```
 
-###javascript requirements
+### javascript requirements
 ```bash
 npm install
 ```
 
-###database migration
+### database migration
 ```bash
 python3 manage.py migrate
 ```
 
-###create super user
+### create super user
 ```bash
 python3 manage.py createsuperuser
 ```
 
-###local run
+### local run
 ```bash
 python3 manage.py runserver
 npm run dev
 ```
 
-###Public
+### Public
 http://localhost:8000/
 
-###Admin
+### Admin
 http://localhost:8000/admin/
