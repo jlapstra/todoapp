@@ -20,7 +20,7 @@ class Item extends Component {
     title: this.props.title ,
     detail: this.props.detail,
     priority_level: this.props.priority,
-    due_date: this.props.due,
+    due_date: new Date(this.props.due),
     completed: false
   }
 

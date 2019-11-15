@@ -45,9 +45,13 @@ class AddList extends Component {
   };
 
   render() {
+    const cardStyle = {
+      minWidth: '300px',
+    };
+
     return (
         <>
-          <Card>
+          <Card style={ cardStyle }>
             <Card.Body>
               <Button variant="primary" onClick={ this.handleShow } block>Add List</Button>
             </Card.Body>

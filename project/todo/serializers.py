@@ -45,5 +45,4 @@ class TodoListSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         if 'user' not in validated_data:
             validated_data['user'] = self.context['request'].user
-        validatRd_data['items'] = []
         return TodoList.objects.create(**validated_data)
