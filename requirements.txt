@@ -115,7 +115,7 @@ PyYAML==3.13
 raven==6.9.0
 redis==2.10.6
 repoze.lru==0.7
-requests==2.19.1
+requests==2.20.0
 requests-oauthlib==1.0.0
 Rx==1.6.1
 s3transfer==0.1.13
