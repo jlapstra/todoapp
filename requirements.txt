@@ -98,7 +98,7 @@ promise==2.1
 psycopg2==2.7.4
 psycopg2-binary==2.7.5
 purl==1.4
-py==1.5.4
+py==1.10.0
 pycparser==2.18
 PyJWT==1.6.4
 Pyphen==0.9.4
