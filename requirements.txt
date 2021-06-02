@@ -133,7 +133,7 @@ tinycss2==0.6.1
 traceback2==1.4.0
 typing==3.6.4
 unittest2==1.1.0
-urllib3==1.22
+urllib3==1.26.5
 uWSGI==2.0.17.1
 vcrpy==1.13.0
 vine==1.1.4
