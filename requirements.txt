@@ -6,7 +6,7 @@ ansicolors==1.1.8
 asn1crypto==0.24.0
 atomicwrites==1.1.5
 attrs==17.4.0
-Babel==2.6.0
+Babel==2.9.1
 billiard==3.5.0.4
 bleach==2.1.3
 boto3==1.7.78
